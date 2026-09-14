@@ -46,25 +46,6 @@ Project illustrations in the portfolio are designed previews. The linked project
 
 The website requires no JavaScript framework, package installation, database, or API credentials.
 
-## Getting Started
-
-### Clone the repository
-
-```sh
-git clone https://github.com/tashi128/Portfolio.git
-cd Portfolio
-```
-
-### Run locally
-
-Open `index.html` directly, or serve the project with Python 3:
-
-```sh
-python3 -m http.server 8001 --bind 127.0.0.1
-```
-
-Visit **http://127.0.0.1:8001**. A local server is recommended for testing browser features such as clipboard access.
-
 ## Repository Structure
 
 ```text
