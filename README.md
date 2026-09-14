@@ -1,6 +1,6 @@
 # Zartashia Saleem — Personal Portfolio
 
-A responsive personal portfolio based on Zartashia’s supplied resume. Built with plain HTML, CSS, and JavaScript, with no build step or dependencies.
+A responsive personal portfolio. Built with plain HTML, CSS, and JavaScript, with no build step or dependencies.
 
 ## Preview
 
