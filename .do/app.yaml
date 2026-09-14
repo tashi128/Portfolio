@@ -1,0 +1,22 @@
+name: zartashia-portfolio
+static_sites:
+  - name: portfolio
+    github:
+      repo: tashi128/Portfolio
+      branch: main
+      deploy_on_push: true
+    source_dir: /
+    environment_slug: html
+    build_command: mkdir -p _static && cp index.html style.css script.js _static/ && cp -R assets _static/assets
+    output_dir: _static
+    index_document: index.html
+domains:
+  - domain: porfolio.zartashia.com
+    type: PRIMARY
+ingress:
+  rules:
+    - component:
+        name: portfolio
+      match:
+        path:
+          prefix: /
